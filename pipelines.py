@@ -15,7 +15,7 @@ import pymysql
 class PolicyPipeline(object):
     def __init__(self):
         self.connect = pymysql.connect(
-            host='localhost', user='root', passwd='Zys0212017', db='mydatabase', charset='utf8')
+            host='localhost', user='root', passwd='pwd', db='db', charset='utf8')
 
         self.cursor = self.connect.cursor()
         print("success")
