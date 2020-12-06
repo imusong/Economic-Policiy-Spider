@@ -1,2 +1,2 @@
 # Economic-Policiy-Spider
-Spider for policies about economy
+Spider for policies about economy.
